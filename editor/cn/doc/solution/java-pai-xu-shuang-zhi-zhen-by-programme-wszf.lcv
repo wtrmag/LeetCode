@@ -1,0 +1,46 @@
+### 解题思路
+
+核心思路是将两个数组都进行**排序**，然后每次用`nums1`中**未被排列**的最大值去和`nums2`中未被比较的最大值进行比较，赢了就放在**相应位置**上，输了就把`nums1`中**未被排列**的最小值放在**相应位置**上。
+
+怎样知道`nums1`中**未被排列**的最大值和最小值？
+- 因为数组`nums1`经过排序，对于**有序数组**，只需要使用**双指针**来记录未被排列的边界即可。
+
+怎样知道**相应位置**的索引？
+- **相应位置**就是`nums2`中未被比较过的**最大值**对应的索引，所以不能直接对`nums2`中的元素进行排序，需要**带着索引进行排序**。另外，每次需要取出**最大值**，自然而然想到了**大根堆**。因此利用`PriorityQueue`的**定制排序**可以轻松实现。
+
+### 代码
+
+* java
+
+```java
+class Solution {
+    public int[] advantageCount(int[] nums1, int[] nums2) {
+        int n = nums1.length;
+        //nums1 从小到大排序
+        Arrays.sort(nums1);
+        // nums2 从大到小排序(带上索引)
+        PriorityQueue<int[]> n2Sorted = new PriorityQueue<>(
+            (a, b) -> {
+                return b[1] - a[1];
+            }
+        );
+        for(int i = 0; i < nums2.length; i++){
+            n2Sorted.offer(new int[]{i, nums2[i]});
+        }
+        int[] res = new int[n];
+        // 左右指针记录nums1中没被排列过的元素
+        int left = 0;
+        int right = n-1;
+        while(!n2Sorted.isEmpty()){
+            int[] n2 = n2Sorted.poll();
+            if(nums1[right] > n2[1]){
+                res[n2[0]] = nums1[right--];
+            }else{
+                res[n2[0]] = nums1[left++];
+            }
+        }
+        return res;
+    }
+}
+```
+

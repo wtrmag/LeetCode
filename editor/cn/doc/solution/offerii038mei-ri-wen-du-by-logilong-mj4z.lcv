@@ -1,0 +1,40 @@
+### 解题思路
+
+本题是一道典型的单调栈问题，话不多说，直接上解题思路。
+1. 初始化一个单调栈，记录 `temperatures` 数组中对应的索引，从栈底到栈顶对应的温度单调递减，同时初始化一个数组，存放最后的结果。
+2. 遍历 `temperatures` 中的所有温度（设置一个变量 i 指向当前温度在数组`temperatures`中的索引）：
+   * 如果栈为空，或者当前温度 <= 栈顶索引对应的温度，则将当前温度对应的索引入栈，同时更新 i , 即遍历下一天的温度。
+   * 如果当前温度 > 栈顶索引对应的温度，则说明找到了比栈顶对应温度高的一天，更新栈顶对应那天的等待天数。（注意，此时不需要更新 i）
+
+> 如果没怎么看明白，可以看看后面的动图，动图来源于[图解每日温度](https://leetcode-cn.com/problems/daily-temperatures/solution/leetcode-tu-jie-739mei-ri-wen-du-by-misterbooo/)
+
+![GIF 2021-9-21 0-28-43.gif](https://pic.leetcode-cn.com/1632155605-muVpTv-GIF%202021-9-21%200-28-43.gif)
+
+### 代码
+
+* java
+
+```java
+class Solution {
+    public int[] dailyTemperatures(int[] temperatures) {
+        // 创建一个数组，存放结果
+        int[] ans = new int[temperatures.length];
+        // 创建一个单调栈
+        ArrayDeque<Integer> deque = new ArrayDeque<>();
+        // 记录当前遍历到数组中的哪一天的温度
+        int i = 0;
+        while (i < temperatures.length){
+            // 当栈为空，或者当前元素 <= 栈顶元素，则将当前元素的索引进栈，形成栈底到栈顶的递减栈
+            // 同时，将 i 指向下一天的温度
+            if(deque.isEmpty() || temperatures[deque.peek()] >= temperatures[i]){
+                deque.push(i++);
+            }else{ // 如果当前元素 > 栈顶元素，则将栈顶索引出栈，说明找到了比栈顶索引更高的温度，获取对应的天数。
+                Integer top = deque.pop();
+                ans[top] = i - top;
+            }
+        }
+        return ans;
+    }
+}
+```
+

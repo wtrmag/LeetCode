@@ -26,16 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c23dbe5b-c48c-441a-8960-8a1bd6b1f0e5" name="Default Changelist" comment="第1次提交">
-      <change afterPath="$PROJECT_DIR$/editor/cn/[169]多数元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[53]最大子序和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[剑指 Offer 40]最小的k个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/[224]基本计算器.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/translation.json" afterDir="false" />
-    </list>
+    <list default="true" id="c23dbe5b-c48c-441a-8960-8a1bd6b1f0e5" name="Default Changelist" comment="第2次提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +34,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="1ehxxHzkRE64lnOOW0xaM4Yt4Db" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,44 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\王天瑞\AppData\Roaming\Subversion</configuration>
@@ -125,7 +94,41 @@
       <workItem from="1600867514829" duration="2954000" />
       <workItem from="1601095471508" duration="3094000" />
       <workItem from="1601099074167" duration="3370000" />
-      <workItem from="1601104393723" duration="15504000" />
+      <workItem from="1601104393723" duration="15866000" />
+      <workItem from="1601571651495" duration="697000" />
+      <workItem from="1602258253061" duration="51000" />
+      <workItem from="1650889728103" duration="3785000" />
+      <workItem from="1651931443895" duration="6073000" />
+      <workItem from="1651992463586" duration="9135000" />
+      <workItem from="1652016340851" duration="592000" />
+      <workItem from="1653481189431" duration="189000" />
+      <workItem from="1653481819321" duration="107000" />
+      <workItem from="1653481968130" duration="6679000" />
+      <workItem from="1657769257973" duration="612000" />
+      <workItem from="1659620685277" duration="1150000" />
+      <workItem from="1659764074528" duration="77000" />
+      <workItem from="1659886584810" duration="680000" />
+      <workItem from="1659887575206" duration="2818000" />
+      <workItem from="1659973417592" duration="9703000" />
+      <workItem from="1660147563477" duration="20697000" />
+      <workItem from="1660469113732" duration="320000" />
+      <workItem from="1660475484380" duration="189000" />
+      <workItem from="1660664212885" duration="9933000" />
+      <workItem from="1660970413623" duration="21551000" />
+      <workItem from="1661436563105" duration="41093000" />
+      <workItem from="1661915279734" duration="1194000" />
+      <workItem from="1662114835710" duration="608000" />
+      <workItem from="1662278142429" duration="642000" />
+      <workItem from="1662294339000" duration="748000" />
+      <workItem from="1662469684129" duration="3640000" />
+      <workItem from="1662784292358" duration="711000" />
+      <workItem from="1662785744393" duration="898000" />
+      <workItem from="1662788379184" duration="7623000" />
+      <workItem from="1662983934003" duration="6630000" />
+      <workItem from="1663070235125" duration="28000" />
+      <workItem from="1663678760806" duration="15619000" />
+      <workItem from="1663856543982" duration="1181000" />
+      <workItem from="1663861478229" duration="490000" />
     </task>
     <task id="LOCAL-00001" summary="第1次提交">
       <created>1599982581375</created>
@@ -134,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599982581375</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第2次提交">
+      <created>1601123499219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601123499219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,86 +172,26 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="第1次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第1次提交" />
+    <MESSAGE value="第2次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第2次提交" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="640" y="311" key="#Custom_Plugin_Repositories" timestamp="1594813900294">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="640" y="311" key="#Custom_Plugin_Repositories/0.0.1536.824@0.0.1536.824" timestamp="1594813900294" />
-    <state x="539" y="130" key="#HTTP_Proxy" timestamp="1594814663734">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="539" y="130" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1594814663734" />
-    <state x="651" y="274" key="#Notifications" timestamp="1599981828768">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1599981828768" />
-    <state x="309" y="107" key="#Postfix_Completion" timestamp="1594800209811">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="309" y="107" key="#Postfix_Completion/0.0.1536.824@0.0.1536.824" timestamp="1594800209811" />
-    <state x="620" y="106" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1594873530780">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="620" y="106" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1594873530780" />
-    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600862415664">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1600862415664" />
-    <state x="520" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1594873533786">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="520" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594873533786" />
-    <state x="567" y="307" key="DetectedRootsChooserDialog" timestamp="1594873498942">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="567" y="307" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1594873498942" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599980508456">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599980508456" />
-    <state x="579" y="313" key="Github.CreateGistDialog" timestamp="1599980444802">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="579" y="313" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1599980444802" />
-    <state x="419" y="221" width="654" height="418" key="Github.ShareDialog" timestamp="1599981884844">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="419" y="221" width="654" height="418" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599981884844" />
-    <state x="259" y="106" key="SettingsEditor" timestamp="1601099380410">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="259" y="106" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601099380410" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599982619839">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599982619839" />
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1599980874062">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1599980874062" />
-    <state x="506" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594873224116">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="506" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1594873224116" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601123078349">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601123078349" />
-    <state x="599" y="203" key="svn.repositoryBrowser" timestamp="1599980230194">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="599" y="203" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1599980230194" />
-    <state x="593" y="174" key="svn4idea.import.options" timestamp="1599980229099">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="593" y="174" key="svn4idea.import.options/0.0.1536.824@0.0.1536.824" timestamp="1599980229099" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/editor/cn/[剑指 Offer 40]最小的k个数.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

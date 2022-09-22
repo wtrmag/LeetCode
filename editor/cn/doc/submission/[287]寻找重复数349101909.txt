@@ -1,0 +1,23 @@
+class Solution {
+    public int findDuplicate(int[] nums) {
+        int n = nums.length - 1;
+
+        int index, res = 0;
+        for (int i = 0; i <= n; i++) {
+            index = nums[i] % n;
+            nums[index] += n;
+            if (nums[index] > 2 * n) {
+                res = nums[i];
+                break;
+            }
+        }
+
+        return res;
+    }
+}
+
+//total_testcases:58
+//total_correct:44
+//input_formatted:[1,1,2]
+//expected_output:1
+//code_output:5

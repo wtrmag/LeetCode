@@ -1,0 +1,30 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int lengthOfLongestSubstring(char * s){
+    if (strlen(s) == 0)
+    {
+        return 0;
+    }
+
+    int max = 0, temp = 0, start, end;
+
+    for (end = 0; s[end]!='\0'; end++)
+    {
+        for (start = temp; start < end; start++)
+        {
+            if (s[end] == s[start])
+            {
+                temp = start + 1;
+                break; 
+            }
+        }
+        max = (end-temp+1) > max ? (end-temp+1) : max;
+    }
+    return max;
+}
+
+
+//runtime:4 ms
+//memory:5.2 MB
